@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(234, 175, 164);
+    color: rgb(25, 26, 27);
+    font-family: "Poppins", sans-serif;
+}
+
+#postsContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#postsContainer div {
+    background-color: white;
+    border-radius: 6px;
+    box-sizing: border-box;
+
+    margin: 8px;
+    padding: 10px;
+
+}
+
+h2 {
+    text-align: center;
+    color: rgb(185, 136, 231);
+}
+
+span {
+    color: tomato;
+}
+
+ul {
+    color: aqua;
+}
